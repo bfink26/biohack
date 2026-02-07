@@ -5,7 +5,11 @@ description = "A Health Universe A2A Agent"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "health-universe-a2a>=0.2.0"
+    "health-universe-a2a>=0.2.0",
+    "openai>=1.40.0",
+    "pandas>=2.2.0",
+    "requests>=2.32.0",
+    "scikit-learn>=1.5.0",
 ]
 
 [project.optional-dependencies]
