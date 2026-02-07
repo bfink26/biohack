@@ -1,0 +1,31 @@
+[project]
+name = "my-a2a-agent"
+version = "0.1.0"
+description = "A Health Universe A2A Agent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "health-universe-a2a>=0.2.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.4.0",
+    "mypy>=1.10.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
