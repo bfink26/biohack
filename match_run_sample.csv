@@ -1,0 +1,21 @@
+rank,center_name,center_city_state,center_lat,center_lon,contact_method,expected_response_speed,acceptance_likelihood,crossmatch_type,or_delay_risk,notes
+1,OSU Wexner Medical Center,"Columbus, OH",39.9972,-83.0146,Pager: 614-555-0101,fast,0.78,virtual,low,High volume kidney center; accepts DCD selectively
+2,Cleveland Clinic,"Cleveland, OH",41.5036,-81.62,Pager: 216-555-0102,fast,0.74,virtual,medium,Experienced with multi-artery kidneys
+3,University Hospitals Cleveland,"Cleveland, OH",41.5075,-81.6089,Pager: 216-555-0103,fast,0.69,virtual,medium,Prefers complete donor infectious panel
+4,UPMC Presbyterian,"Pittsburgh, PA",40.4418,-79.9606,Pager: 412-555-0104,fast,0.66,virtual,medium,Often accepts extended criteria kidneys
+5,University of Cincinnati Medical Center,"Cincinnati, OH",39.1412,-84.506,Pager: 513-555-0105,fast,0.63,virtual,low,Good weekend coverage
+6,Nationwide Children's (Peds Kidney),"Columbus, OH",39.9987,-82.9847,Pager: 614-555-0106,medium,0.55,physical,low,Pediatric constraints; size dependent
+7,Henry Ford Hospital,"Detroit, MI",42.3546,-83.0581,Pager: 313-555-0107,fast,0.6,virtual,medium,Accepts HCV+ with protocol
+8,University of Michigan,"Ann Arbor, MI",42.2814,-83.73,Pager: 734-555-0108,medium,0.58,virtual,medium,Prefers biopsy if KDPI high
+9,Indiana University Health,"Indianapolis, IN",39.775,-86.176,Pager: 317-555-0109,medium,0.56,virtual,high,OR delays possible weekends
+10,Vanderbilt University Medical Center,"Nashville, TN",36.142,-86.8027,Pager: 615-555-0110,medium,0.5,virtual,medium,Longer transport; strong acceptance if pump used
+11,University of Kentucky (Chandler),"Lexington, KY",38.0323,-84.5086,Pager: 859-555-0111,fast,0.54,virtual,low,Close enough for ground/short air
+12,Mount Sinai Hospital,"New York, NY",40.7901,-73.9533,Pager: 212-555-0112,slow,0.42,physical,medium,Physical crossmatch common; longer decision
+13,NYU Langone,"New York, NY",40.742,-73.9746,Pager: 212-555-0113,slow,0.4,physical,medium,Often requests additional labs
+14,Mass General Hospital,"Boston, MA",42.3626,-71.0695,Pager: 617-555-0114,slow,0.37,physical,high,Long transport; OR constraints
+15,Mayo Clinic,"Rochester, MN",44.0221,-92.466,Pager: 507-555-0115,medium,0.46,virtual,medium,Will accept high-risk if logistics solid
+16,Northwestern Memorial Hospital,"Chicago, IL",41.894,-87.62,Pager: 312-555-0116,medium,0.48,virtual,medium,Prefers HMP for DCD
+17,Rush University Medical Center,"Chicago, IL",41.8743,-87.6696,Pager: 312-555-0117,medium,0.45,virtual,high,Weekend OR tight
+18,Emory University Hospital,"Atlanta, GA",33.7913,-84.3236,Pager: 404-555-0118,slow,0.35,physical,high,Longer accept time
+19,Johns Hopkins Hospital,"Baltimore, MD",39.2965,-76.5929,Pager: 410-555-0119,medium,0.44,virtual,medium,"Strong immunology, may request extra info"
+20,UVA Health,"Charlottesville, VA",38.0347,-78.5033,Pager: 434-555-0120,slow,0.33,physical,high,Longer transport + OR delays
